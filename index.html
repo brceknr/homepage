@@ -130,10 +130,16 @@
     .kutu9 {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      text-align: center;
     }
     .kutu10 {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      text-align: center;
     }
     .resim h4 {
       font-family: sans-serif;
@@ -154,16 +160,7 @@
       text-decoration: line-through;
       padding-left: 20px;
     }
-    .kutu9 {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      text-align: center;
-    }
-    .kutu10 {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      text-align: center;
-    }
+
     .button button {
       background-color: white;
       color: rgb(212, 133, 29);
@@ -260,7 +257,7 @@
       color: black;
       font-family: sans-serif;
     }
-    @media (max-width: 600px) {
+    @media (min-width: 376px) and (max-width: 425px) {
       .container {
         display: grid;
         grid-template-columns: auto;
@@ -333,71 +330,74 @@
         <div class="baslik">
           <h2>Our Products</h2>
         </div>
-        <div class="kutu9">
-          <div class="resim">
-            <img src="image 1.png" alt="" />
-            <h4>Syltherine</h4>
-            <span>Stylish cafe chair</span>
-            <br />
-            <span class="fiyat"
-              >Rp 2.500.000 <span class="çizgi">Rp 3.500.000</span></span
-            >
+        <div class="our">
+          <div class="kutu9">
+            <div class="resim">
+              <img src="image 1.png" alt="" />
+              <h4>Syltherine</h4>
+              <span>Stylish cafe chair</span>
+              <br />
+              <span class="fiyat"
+                >Rp 2.500.000 <span class="çizgi">Rp 3.500.000</span></span
+              >
+            </div>
+            <div class="resim">
+              <img src="image 2.png" alt="" />
+              <h4>Leviosa</h4>
+              <span>Stylish cafe chair</span>
+              <br />
+              <span class="fiyat">Rp 2.500.000 </span>
+            </div>
+            <div class="resim">
+              <img src="image 3.png" alt="" />
+              <h4>Lolito</h4>
+              <span>Luxury big sofa</span>
+              <br />
+              <span class="fiyat"
+                >Rp 7.000.000 <span class="çizgi">Rp 14.000.000</span></span
+              >
+            </div>
+            <div class="resim">
+              <img src="Images.png" alt="" />
+              <h4>Respira</h4>
+              <span>Outdoor bar table and stool</span>
+              <br />
+              <span class="fiyat">Rp 5.000.000</span>
+            </div>
           </div>
-          <div class="resim">
-            <img src="image 2.png" alt="" />
-            <h4>Leviosa</h4>
-            <span>Stylish cafe chair</span>
-            <br />
-            <span class="fiyat">Rp 2.500.000 </span>
+          <div class="kutu10">
+            <div class="resim">
+              <img src="Image 5.png" alt="" />
+              <h4>Grifo</h4>
+              <span>Night lamp </span>
+              <br />
+              <span class="fiyat">Rp 1.500.000 </span>
+            </div>
+            <div class="resim">
+              <img src="image 6.png" alt="" />
+              <h4>Muggo</h4>
+              <span>Small mug</span>
+              <br />
+              <span class="fiyat">Rp 150.000</span>
+            </div>
+            <div class="resim">
+              <img src="image 7.png" alt="" />
+              <h4>Pingky</h4>
+              <span>Cute bed set </span>
+              <br />
+              <span class="fiyat"
+                >Rp 7.000.000 <span class="çizgi">Rp 14.000.000</span></span
+              >
+            </div>
+            <div class="resim">
+              <img src="image 8.png" alt="" />
+              <h4>Potty</h4>
+              <span>Minimalist flower pot</span>
+              <br />
+              <span class="fiyat">Rp 5.000.000 </span>
+            </div>
           </div>
-          <div class="resim">
-            <img src="image 3.png" alt="" />
-            <h4>Lolito</h4>
-            <span>Luxury big sofa</span>
-            <br />
-            <span class="fiyat"
-              >Rp 7.000.000 <span class="çizgi">Rp 14.000.000</span></span
-            >
-          </div>
-          <div class="resim">
-            <img src="Images.png" alt="" />
-            <h4>Respira</h4>
-            <span>Outdoor bar table and stool</span>
-            <br />
-            <span class="fiyat">Rp 5.000.000</span>
-          </div>
-        </div>
-        <div class="kutu10">
-          <div class="resim">
-            <img src="Image 5.png" alt="" />
-            <h4>Grifo</h4>
-            <span>Night lamp </span>
-            <br />
-            <span class="fiyat">Rp 1.500.000 </span>
-          </div>
-          <div class="resim">
-            <img src="image 6.png" alt="" />
-            <h4>Muggo</h4>
-            <span>Small mug</span>
-            <br />
-            <span class="fiyat">Rp 150.000</span>
-          </div>
-          <div class="resim">
-            <img src="image 7.png" alt="" />
-            <h4>Pingky</h4>
-            <span>Cute bed set </span>
-            <br />
-            <span class="fiyat"
-              >Rp 7.000.000 <span class="çizgi">Rp 14.000.000</span></span
-            >
-          </div>
-          <div class="resim">
-            <img src="image 8.png" alt="" />
-            <h4>Potty</h4>
-            <span>Minimalist flower pot</span>
-            <br />
-            <span class="fiyat">Rp 5.000.000 </span>
-          </div>
+
           <br />
           <div class="button">
             <br />
